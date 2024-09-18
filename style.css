@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    overflow-x: hidden; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Header */
+header {
+    display: flex;
+    padding-top: 4vh;
+    box-shadow: 0 1px 8px transparent;
+
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20vw;
+    font-size: 1.7em;
+}
+
+header h1 {
+    font-size: 2em;
+    padding-left: 3vw;
+    color: rgb(255, 0, 0);
+}
+
+header a {
+    color: rgb(255, 191, 0);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: aqua;
+}
+
+nav {
+    display: flex;
+}
+
+/* content  */
+
+.content {
+    padding-top: 18vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.12rem;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.slog {
+    color: #26ff00;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.03rem;
+    text-transform: capitalize;
+
+}
+
+
+.buton {
+    text-align: center; 
+
+}
+
+.button {
+    display: inline-block;
+    font-size: 29px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #FF0000; 
+    border: none;
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #cc0000; 
+    transform: scale(1.05); 
+}
+
+.button:active {
+    background-color: #990000; /* Even darker red when clicked */
+    transform: scale(0.95); /* Slightly shrink button on click */
+}
+
+.fmain {
+    border: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+
+}
+
+.fmain h3 {
+    color: white;
+}
+
+
+.about {
+    padding-top: 18vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    
+
+}
+
+.bout {
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+.out {
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+.ut {
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+
+}
+
+
+.mtitle {
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding: 1vh;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.mslog {
+    color: #9d00ff;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height:30px;
+    letter-spacing: -0.03rem;
+    text-transform: capitalize;
+
+}
+
+.log {
+    color: #fafafa;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height:30px;
+    letter-spacing: -0.03rem;
+    text-transform: capitalize;
+
+}
+
+.log b {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.about h1 {
+    font-style: italic;
+}
+
+.bout h1 {
+    font-style: italic;
+}
+
+.bout li {
+    color: rgb(19, 255, 3);
+
+}
+
+.out li {
+    color: rgb(0, 200, 255);
+    
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        height: 30vh;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    img {
+        height: 20vh;
+        width: auto;
+    }
+}
