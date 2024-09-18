@@ -6,11 +6,11 @@
 Welcome to QkieHaus, a recipe site designed to provide users with a variety of delicious and trending recipes. This site is built to showcase different cuisines, allow users to explore new dishes, and give them access to step-by-step video recipes. Whether you’re a seasoned chef or just starting your culinary journey, QkieHaus is your go-to destination for discovering great meals.
 
 ## 🔥Features
-- !Easy-to-Navigate Menus: The homepage and navigation bar allow users to quickly access popular recipes.
-- !Available Menus: A curated selection of different dishes such as pizza, burgers, tacos, sushi, and more.
-- !Responsive Design: The site is designed to work across desktop and mobile devices, ensuring a seamless experience on any screen.
-- !Recipe Pages with Images and Links: Each recipe is presented with an image and a clickable link that leads to a video tutorial, making it easy for users to follow along with cooking instructions.
-- !Trending Section: Stay up-to-date with trending recipes from various cuisines such as Italian, Mexican, and Japanese.
+- Easy-to-Navigate Menus: The homepage and navigation bar allow users to quickly access popular recipes.
+- Available Menus: A curated selection of different dishes such as pizza, burgers, tacos, sushi, and more.
+- Responsive Design: The site is designed to work across desktop and mobile devices, ensuring a seamless experience on any screen.
+- Recipe Pages with Images and Links: Each recipe is presented with an image and a clickable link that leads to a video tutorial, making it easy for users to follow along with cooking instructions.
+- Trending Section: Stay up-to-date with trending recipes from various cuisines such as Italian, Mexican, and Japanese.
 
 ## 🚀Pages
 1. Home (index.html): The main page introduces users to the site and presents the main navigation.
@@ -35,9 +35,9 @@ open index.html
 ```
 
 ### 🧑‍💻Technologies Used
-HTML5: For structuring the pages and content.
-CSS3: For styling and ensuring the site is visually appealing.
-GitHub Pages: Hosting the live version of the site.
+- HTML5: For structuring the pages and content.
+- CSS3: For styling and ensuring the site is visually appealing.
+- GitHub Pages: Hosting the live version of the site.
 
 # 📜How to Contribute
 Feel free to contribute to the development of QkieHaus by submitting pull requests or opening issues. Any feedback is welcome!
