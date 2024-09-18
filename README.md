@@ -37,7 +37,7 @@ open index.html
 ### 🧑‍💻Technologies Used
 - HTML5: For structuring the pages and content.
 - CSS3: For styling and ensuring the site is visually appealing.
-- GitHub Pages: Hosting the live version of the site.
+- CloudFlare Pages: Hosting the live version of the site.
 
 # 📜How to Contribute
 Feel free to contribute to the development of QkieHaus by submitting pull requests or opening issues. Any feedback is welcome!
